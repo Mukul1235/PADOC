@@ -1,0 +1,50 @@
+/* ****************SideBar******************** */
+.sidebar{
+    position: fixed;
+    width:300px;
+    background-color: rgb(7, 0, 0);
+    height: 100%;
+    border-right: 1px solid;
+}
+.home_bar{
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(25, 239, 53);
+    color:white;
+    margin:20px;
+    text-align: center;
+}
+div[class^='op']:hover,.home_bar:hover{
+    background-color: rgb(16, 171, 37);
+}
+img[srcSet='logo.png']{
+    height: 50px;
+    position: absolute;
+    left:20px;
+    padding:5px;
+}
+div[class^='op']{
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(84, 215, 102);
+    color:white;
+    margin:20px;
+    margin-top: 40px;
+}
+.logout{
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(224, 58, 58);
+    color:white;
+    text-align: center;
+    margin:10%;
+    margin-top:250px;
+}
+.logout:hover{
+    background-color: red;
+}
+span{
+    height: 50px;
+    margin-left:40px;
+    margin-right: 20px;
+}

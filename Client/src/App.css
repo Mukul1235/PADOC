@@ -1,0 +1,362 @@
+.home,.login {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.front_page {
+  height: 100%;
+  width: 65%;
+  min-width: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.App,.login_app {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid;
+  width: 30%;
+  min-width: 300px;
+  margin: 2%;
+}
+.doc {
+  width: 81%;
+  min-width: 200px;
+  margin: auto;
+}
+.status {
+  justify-content: center;
+  text-align: center;
+}
+.data {
+  border: 1px solid;
+  float: right;
+  width: 40%;
+  margin: 2%;
+}
+.login {
+  text-align: center;
+}
+h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  color: #133f26;
+  font-weight: 900;
+}
+.signup select {
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.loginButton:focus{
+  outline: none;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+}
+.login_form,form {
+  text-align: center;
+}
+.login_form input,form input {
+  width: 90%;
+  height: 30px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.login_form button,form button[type="submit"] {
+  background-color: #178045;
+  height: 40px;
+  width: 80%;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+h3{
+    padding-top: 20px;
+    font-family: 'DM Sans';
+}
+
+.web-name {
+  color: #133f26;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  background-color: #dae1d6;
+  max-width: 20%;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.navbar {
+  background-color: #dae1d6;
+  /* border-radius: 10px; */
+  padding-top: 0;
+}
+
+.logo-class {
+  max-width: 50px;
+  size: 100%;
+  z-index: 1000;
+}
+
+.weight {
+  font-weight: bold;
+  text-decoration: none;
+  color: #133f26;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item {
+  margin: auto 5px;
+}
+
+ul[class='main']{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+
+li[id='main']{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color: green;
+}
+
+#ar{
+  color:green;
+}
+
+.login_form,.form{
+  margin-top: 20%;
+}
+
+.login_form .fp{
+  margin-left:10%;
+}
+
+.container_pat{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.diseases{
+  border:1px solid;
+  width: 65%;
+  min-width: 400px;
+  height: 650px;
+  background-color:lightgray;
+  border-radius:20px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+/* .diseases::-webkit-scrollbar{
+  display:none;
+} */
+
+.doctors{
+  border:1px solid;
+  width: 35%;
+  min-width: 400px;
+  height: 650px;
+  margin: auto;
+  border-radius:20px;
+  background-color: lightgray;
+  justify-content: center;
+  text-align: center;
+}
+
+.disease_block{
+  border: 1px solid;
+  height: 200px;
+  width: 240px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-image: linear-gradient(45deg,red,orange,yellow);
+}
+
+.doctor_dis{
+  width:90%;
+  height: 90px;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  margin-top:15px;
+}
+
+.doc_wrap{
+  overflow-y: scroll;
+  height: 600px;
+  background-color: gray;
+  border-radius: 15px;
+  width:95%;
+  margin: auto;
+  margin-top:10px;
+}
+
+.container-fluid {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
+}
+
+.footer-padding {
+padding-bottom: 60px;
+}
+
+.footer {
+position: absolute;
+text-align: center;
+bottom: 0;
+width: 100%;
+height: 60px;
+background-color: #1abc9c;
+}
+
+.footer p {
+margin-top: 25px;
+font-size: 12px;
+color: #fff;
+}
+
+.contact{
+  text-align: center;
+}
+
+/* ********************************** Carousal ************************* */
+
+.carousel-cont{
+  background-color: #0e7e3e;
+}
+
+.caro-material{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.main-pic{
+  width: 80%;
+  height: 80%;
+  padding-right: 18%;
+  padding-top: 5%;
+}
+.caro-text{
+  color: #DAE1D6;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 150%;
+  margin-left: -25%;
+  padding-top: 15%;
+  z-index: 100;
+}
+
+.img-text{
+  font-family: 'DM Sans', sans-serif;
+  z-index: 100;
+  color: #EFF2E9;
+  font-weight: bold;
+  position: absolute;
+  top: 115px;
+  left: 20px;
+  
+}
+/* 
+/* .main-img{
+  /* width:initial; 
+  width: fit-content;
+  overflow-x: hidden;
+  background-size: cover;
+} */ */
+
+.cont2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* background-image: url("../Images/doctor-front-page.jpg"); */
+}
+
+
+/**************************************** Features **********************************************/
+
+.feature-container{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.feature-description{
+  font-weight: bold;
+  font-size: 25px;
+  color: #133F26;
+}
+
+.appointment-img{
+  size:25%;
+}
+
+/* ********************************** Doctor background ******************************* */
+.doctor-bg{
+  background-color: #DAE1D6;
+}
+
+/* ********************************** feature section ******************************* */
+
+.feature-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #EFF2E9;  
+}
+
+.feat{
+  height: 75%;
+  width: 75%;
+}

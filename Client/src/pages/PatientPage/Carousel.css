@@ -1,0 +1,11 @@
+.pages{
+    height: 300px;
+    width: 500px;
+    flex-direction: row;
+}
+
+.Carousel{
+    width: 520px;
+    flex-direction: column;
+    margin-left:350px;
+}

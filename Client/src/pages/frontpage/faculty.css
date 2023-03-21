@@ -1,0 +1,23 @@
+/* ********************************** faculty section ******************************* */
+
+.faculty-section {
+  width: 400px;
+  border: 2px #133f26 solid;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #eff2e9;
+}
+
+.faculty-img {
+  width: 450px;
+  padding-left: 15px;
+  margin-right: -10px;
+}
+
+.faculty-container {
+  background-color: #133f26;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

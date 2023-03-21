@@ -1,0 +1,113 @@
+.medicineContainer {
+  border: 1px solid;
+  width: 220px;
+  height: 306px;
+  text-align: center;
+  margin-left: 90px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.medicineContainer #name{
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.medicineContainer #cost{
+  font-size: 20px;
+}
+
+.medicineContainer button {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 15px;
+  background-color: green;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.medicineContainer button:hover {
+  box-shadow: 1px 2px 10px grey;
+}
+
+.medicineContainer:hover {
+  border: 2px solid;
+}
+
+#med_pic {
+  width: 200px;
+  height: 200px;
+}
+
+#med_search {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.Medicinesearchlist {
+  height: calc(100vh - 135px);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#AddCart {
+  background-color: blueviolet;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+#AddCart:hover{
+  box-shadow: 1px 2px 5px grey;
+}
+
+.Med_search {
+  margin: auto;
+  width: 50%;
+  margin-top: 10px;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+.TotalItems {
+  border-radius: 50%;
+  color: green;
+  background-color: white;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 900;
+  border: 1px solid blueviolet;
+  position: absolute;
+  right: 20px;
+  bottom: 62px;
+}

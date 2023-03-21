@@ -1,0 +1,112 @@
+.MedContainer {
+  border: 1px solid;
+  margin: auto;
+  width: 70%;
+  height: 200px;
+  min-width: 600px;
+  margin-top:20px;
+}
+
+.Medicines_Carted {
+  margin-top: 20px;
+  overflow-y: scroll;
+  height: calc(100vh - 150px);
+  width: 100%;
+}
+
+.MedContainer img {
+  height: 200px;
+  width: 200px;
+}
+
+.quantity {
+  float: right;
+  position: relative;
+  bottom: 95px;
+}
+
+.quantity #decrement,
+.quantity #count,
+.quantity #increment {
+  border: 4px solid;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 900;
+  margin: 1px;
+}
+
+#med_name {
+  font-size: 30px;
+  position: relative;
+  bottom: 30px;
+  left: 5%;
+  font-weight: 500;
+}
+
+#med_cost {
+  font-size: 22px;
+  position: relative;
+  bottom: 110px;
+  left: calc(5% + 200px);
+}
+
+#TotalMedCostLabel {
+  position: relative;
+  left: calc(5% + 200px);
+  bottom: 90px;
+  font-size: 22px;
+  font-weight:500;
+}
+
+.payment {
+  border: 1px solid;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  height: 50px;
+  min-width: 600px;
+}
+
+#TotalCostLabel {
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 10%;
+  line-height: 50px;
+}
+
+#TotalCost {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+#paymentBtn{
+    float: right;
+    top:2px;
+    position: relative;
+    right:10%;
+    height: 45px;
+    font-size:30px;
+    line-height: 40px;
+    font-weight: 700;
+    background-color: orange;
+    color: white;
+    border-radius:10px;
+}
+
+#paymentBtn:hover{
+  box-shadow: 1px 2px 5px grey;
+}
+
+#trash:hover{
+  color:red;
+}
+
+#Empty_Cart{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color:rgb(251, 69, 69);
+  padding-top:15%;
+}
